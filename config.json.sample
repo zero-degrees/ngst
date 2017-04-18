@@ -1,0 +1,10 @@
+{
+	"ui": {
+		"host": "localhost",
+		"port": 9002
+	},
+	"api": {
+		"host": "localhost",
+		"port": 9001
+	}
+}
