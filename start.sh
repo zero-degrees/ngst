@@ -13,7 +13,7 @@ supervisor -w api/app,api/server.js,config.json api/server.js &
 
 #start the ui
 cd ui
-ng serve --host $UI_HOST --port $UI_PORT
+ng serve --port $UI_PORT
 cd ..
 
 #reset to the original node version
