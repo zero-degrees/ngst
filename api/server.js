@@ -21,6 +21,12 @@ app.use(compress({
 	flush: require('zlib').Z_SYNC_FLUSH
 }));
 
+//add Access-Control-Allow-Origin header
+app.use(async (ctx, next) => {
+	await next();
+	ctx.set('Access-Control-Allow-Origin', '*');
+});
+
 //add x-response-time header
 app.use(async (ctx, next) => {
 	const start = new Date();
