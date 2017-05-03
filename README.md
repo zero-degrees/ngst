@@ -1,4 +1,4 @@
-# Node Seed
+# ngst
 
 This is a seed application that contains a [Koa.js](http://koajs.com/) API and an [Angular 4](http://angular.io) UI.  The UI is based on [angular-cli](https://github.com/angular/angular-cli).
 
