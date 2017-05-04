@@ -1,3 +1,3 @@
-const controllers = module.exports = {
+module.exports = {
 	index: require('./controllers/index')
 };
