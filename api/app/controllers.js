@@ -1,5 +1,3 @@
-const IndexController = require('./controllers/index');
-
-const controllers = module.exports;
-
-controllers.index = new IndexController();
+const controllers = module.exports = {
+	index: require('./controllers/index')
+};

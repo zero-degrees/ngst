@@ -1,11 +1,7 @@
-const AbstractController = require('./abstractController');
+const controller = module.exports = {};
 
-class IndexController extends AbstractController {
-	async indexAction(ctx, next) {
-		ctx.body = {};
+controller.indexAction = async (ctx, next) => {
+	ctx.body = {};
 
-		await next;
-	}
-}
-
-module.exports = IndexController;
+	await next;
+};
