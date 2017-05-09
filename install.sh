@@ -1,6 +1,7 @@
 #!/bin/bash
 
-. cli/vars.sh
+#initialize the config
+cp -n config.json.sample config.json
 
 sudo npm install -g bower supervisor @angular/cli
 
@@ -14,6 +15,4 @@ cd ui
 npm install
 cd ..
 
-#initialize the config
-cp -n config.json.sample config.json
 echo "Installation complete. Now customize config.json"
