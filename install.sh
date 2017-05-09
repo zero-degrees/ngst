@@ -2,17 +2,7 @@
 
 . cli/vars.sh
 
-sudo npm install -g bower n supervisor @angular/cli
-
-#make sure we have the correct version of node available
-if [ $CURRENT_NODE_VERSION != $REQUIRED_NODE_VERSION ]
-	then
-		echo Node.js $CURRENT_NODE_VERSION detected.
-		echo Downloading Node.js $REQUIRED_NODE_VERSION
-
-		sudo n $REQUIRED_NODE_VERSION
-		sudo n $CURRENT_NODE_VERSION
-fi
+sudo npm install -g bower supervisor @angular/cli
 
 #set up the api
 cd api
