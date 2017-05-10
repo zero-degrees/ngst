@@ -1,6 +1,14 @@
 # ngst
 
-This is a seed application that contains a [Koa.js](http://koajs.com/) API and an [Angular 4](http://angular.io) UI.  The UI is based on [angular-cli](https://github.com/angular/angular-cli).
+Ngst (pronounced "angst") is a seed application that contains a [Koa.js](http://koajs.com/) API and an [Angular](https://angular.io) UI.  The UI is based on [angular-cli](https://github.com/angular/angular-cli).
+
+## What's included?
+
+* [Koa.js](http://koajs.com/)
+* [Angular](https://angular.io)
+* [Angular Material](https://material.angular.io) ([colors](https://material.io/guidelines/style/color.html))
+* [Material Icons](https://material.io/icons/)
+* [Sass](http://sass-lang.com/)
 
 ## Installation
 
