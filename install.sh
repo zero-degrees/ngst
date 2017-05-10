@@ -19,7 +19,7 @@ if [ -d "ui" ]
 		npm install
 		cd ..
 	else
-		#create the ui directory
+		#create the ui
 		ng new ui --directory=ui --skip-git=true --style=scss
 fi
 
