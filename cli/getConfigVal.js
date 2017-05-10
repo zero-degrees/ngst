@@ -28,5 +28,7 @@ try {
 	}
 }
 catch(error) {
+	/*eslint-disable no-console*/
 	console.error(error);
+	/*eslint-enable no-console*/
 }
