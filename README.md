@@ -4,9 +4,10 @@ This is a seed application that contains a [Koa.js](http://koajs.com/) API and a
 
 ## Installation
 
-1. First make sure that you have Node.js >= 7.6.0 installed
-2. Run `./install.sh`
-3. Modify the values in **config.json** to match your environment
+1. Fork and clone this repository.
+1. Make sure that you have Node.js >= 7.6.0 installed
+1. Run `./install.sh`
+1. Modify the values in **config.json** to match your environment
 
 ## Usage
 
