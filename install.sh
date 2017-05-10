@@ -4,11 +4,11 @@
 cp -n config.json.sample config.json
 
 #install global dependencies
-sudo npm install -g bower supervisor @angular/cli
+sudo npm i -g bower supervisor @angular/cli
 
 #set up the api
 cd api
-npm install
+npm i
 cd ..
 
 #set up the ui
@@ -16,7 +16,7 @@ if [ -d "ui" ]
 	then
 		#ensure that all of the ui's latest dependencies are installed
 		cd ui
-		npm install
+		npm i
 		cd ..
 	else
 		#initialize the ui
@@ -27,7 +27,8 @@ if [ -d "ui" ]
 		find . -type f \( -name "*.html" -o -name "*.js" -o -name "*.ts" -o -name "*.scss" -o -name "*.json" \) ! -path "./node_modules/*" -exec sed -i 's/  /\t/g' {} +
 
 		#add node modules
-		npm install --save @angular/material @angular/animations hammerjs
+		npm i --save @angular/material @angular/animations hammerjs
+		npm i --save-dev @types/hammerjs
 		cd ..
 
 		#install our customized files
