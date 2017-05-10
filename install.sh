@@ -24,7 +24,7 @@ if [ -d "ui" ]
 
 		#join the hard tab master race
 		cd ui
-		find . -type f -name "*.html" -name "*.js" -name "*.ts" -name "*.scss" -name "*.json" -not -path "./node_modules/*" -exec sed -i 's/  /\t/g' {} +
+		find . -type f \( -name "*.html" -o -name "*.js" -o -name "*.ts" -o -name "*.scss" -o -name "*.json" \) ! -path "./node_modules/*" -exec sed -i 's/  /\t/g' {} +
 
 		#add node modules
 		npm install --save @angular/material @angular/animations hammerjs
