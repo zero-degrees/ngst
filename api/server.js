@@ -1,3 +1,5 @@
+'use strict';
+
 const koa = require('koa');
 const logger = require('koa-logger');
 const compress = require('koa-compress');

@@ -1,3 +1,5 @@
+'use strict';
+
 module.exports.indexAction = async (ctx, next) => {
 	ctx.body = {};
 
