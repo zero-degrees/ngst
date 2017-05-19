@@ -13,10 +13,10 @@ Ngst (pronounced "angst") is a seed application that contains a [Koa.js](http://
 ## Installation
 
 1. Fork and clone this repository.
-1. Make sure that you have Node.js >= 7.6.0 installed
+1. Make sure that you have [Node.js](https://nodejs.org) >= 7.6.0 installed
 1. Run `./install.sh`
 1. Modify the values in **config.json** to match your environment
 
 ## Usage
 
-To start the application, run `./start.sh` -- this will start the servers for both the API and UI. Any changes to either should be effective almost immediately without restarting.
+To start the application, run `./start.sh` -- this will start the servers for both the API and UI. By default, the UI is accessible at [http://localhost:9002](http://localhost:9002). Any changes to either should be effective almost immediately without restarting.
